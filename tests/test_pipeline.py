@@ -1,8 +1,9 @@
 import pandas as pd
+
 from src.ETL.transform import concat_dataframes
 
-df_1 = pd.DataFrame({'col1': [1, 2], 'col2': [3, 4]})
-df_2 = pd.DataFrame({'col1': [5, 6], 'col2': [7, 8]})
+df_1 = pd.DataFrame({"col1": [1, 2], "col2": [3, 4]})
+df_2 = pd.DataFrame({"col1": [5, 6], "col2": [7, 8]})
 
 
 def testar_a_concatenacao_da_lista_de_dataframes():

@@ -1,7 +1,8 @@
 """Módulo responsável por consolidar os dados de entradas."""
 
-import pandas as pd
 from typing import List
+
+import pandas as pd
 
 
 def concat_dataframes(df_list: List[pd.DataFrame]) -> pd.DataFrame:
