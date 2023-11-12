@@ -4,7 +4,7 @@ import pandas as pd
 from typing import List
 
 
-def concat_data_frames(df_list: List[pd.DataFrame]) -> pd.DataFrame:
+def concat_dataframes(df_list: List[pd.DataFrame]) -> pd.DataFrame:
     """Função que consolida uma lista de dataframes em um único dataframe.
 
     Args:
