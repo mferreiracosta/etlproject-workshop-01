@@ -1,3 +1,1 @@
-import site
-
-print(site.getsitepackages())
+print("Hello World")
