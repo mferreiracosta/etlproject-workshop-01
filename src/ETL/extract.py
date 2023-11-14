@@ -1,3 +1,5 @@
+"""Módulo responsável pela extração dos dados."""
+
 import glob
 import os
 from typing import List
