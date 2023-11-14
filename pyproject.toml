@@ -31,3 +31,6 @@ known_third_party = []
 
 [tool.taskipy.tasks]
 format = "isort . && black ."
+kill = "kill -9 $(lsof -t -i :8000)"
+test = "poetry run pytest -v"
+run = "python -m src.main"
