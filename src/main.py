@@ -42,3 +42,4 @@ if __name__ == "__main__":
     output_path = "data/output"
     output_filename = "consolidated_absenteeism_data"
     full_pipeline(input_path, output_path, output_filename)
+    print("Finished ETL successfuly!")
