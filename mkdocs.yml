@@ -1,0 +1,20 @@
+site_name: Estruturação de um Projeto de Dados
+theme:
+  name: material # or other theme
+  palette:
+    primary: blue
+  language: en
+
+repo_name: "mferreiracosta/etl-project"
+repo_url: "https://github.com/mferreiracosta/etlproject-workshop-01"
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
